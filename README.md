@@ -82,13 +82,13 @@ I also converted the 'date' variable into a date format using the Python datetim
 
 In order to store Table 3, I represented it as a nested JSON object within Table 2, thus preserving the parent-child relationship of the data and allowing for simple data extraction.
 
-<img src="/assets/Screenshot 2026-07-11 215854.png" width="500">
+<img src="/assets/Screenshot 2026-07-11 215854.png" width="400">
 
 ### Data Analysis
 
 With the data cleaned and ready for use, I aggregated the data looking to answer certain questions, such as most successful cards of all time, highest ranking placement per card, and average placement per season. With the average placement per season metric, I was able to show the rise and fall, or the competitive history of each individual card. When it performed best relative to its peers, and when it performed worse. With this data, I was able to create charts such as the one below, using the Python library Plotly.
 
-<img src="/assets/Screenshot 2026-07-11 221711.png" width="500">
+<img src="/assets/Screenshot 2026-07-11 221711.png" width="700">
 
 Answering the question of the most successful cards of all time was the most difficult. In order to answer this, I had to decide on a way to measure success. Obviously winning 1st place in a tournament is the best sign of success, but placing 2nd, 4th, 10th, or even 64th, can be considered successful in tournaments consisting of 200+ players. Thus, in order to quantify the success of a card, I had to assign a weighted score to its placements and add them up, comparing each card to each other card.
 
