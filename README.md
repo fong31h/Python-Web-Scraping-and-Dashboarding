@@ -62,7 +62,7 @@ In raw form, the data consisted of three tables in a hierarchical structure with
 * Card 3
 * ...
 * Card 20
-* 
+  
 </td>
 
 </tr>
