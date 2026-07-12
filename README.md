@@ -104,7 +104,7 @@ With metrics calculated and visualizations created, my last step was to create a
 
 For the dashboard, I created UI cards in Python Shiny, storing tables, charts, and information. For example, the code below creates a UI card with information for the top tournament placement for the selected card. Please see 'app.py' for the full dashboard code.
 
-<img src="/assets/Screenshot 2026-07-12 003718.png" width="500">
+<img src="/assets/Screenshot 2026-07-12 003718.png" width="700">
 
 I structured the dashboard in three pages:
 
@@ -113,3 +113,5 @@ Page 1: Individual Card Selection and Exploration. Each card can be selected ind
 Page 2: Most Dominant Cards. This page contains a visualization and a table that display the top scoring cards of all time. On this page, you can see the cards that won with the greatest frequency relative to their peers, marking them as the most dominant. In addition, an exciting animated visualization displays the progression of the most dominant cards. As more and more powerful cards are released, the card that holds the spot as Most Dominant continually changes, up until the first year of the game ended.
 
 Page 3: Miscellaneous exploration. I chose to focus on one type of card in my individual card selection section, because there are simply too many cards to examine them all. On this page, curious explorers can look into any card that I didn't cover, getting general summary statistics on that card's performance.
+
+<img src="/assets/Screenshot 2026-07-12 005102.png" width="800">
